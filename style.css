@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    box-sizing: border-box;   
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    background-color:#ffffff;
+  
+}
+.cont-calulator{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   flex-direction: column;
+   border: none;
+   box-shadow: 10px 10px 40px slategray;
+   background-color: aliceblue;
+   border-radius: 20px;
+   height: 520px;
+
+}
+
+
+#cal-method {
+    height: 74px;
+    text-align: end;
+    box-shadow: dimgray 10px 10px 10px;
+    border-radius: 32px;
+    border: none;
+    font-size: 25px;
+    padding: 6px;
+    width: 100%;
+}
+
+button {
+    width: 80px;
+    padding: 20px;
+    margin-top: 21px;
+    border-radius: 50%;
+    border: none;
+    background: black;
+    color: whitesmoke;
+    font-size: 18px;
+    box-shadow: 10px 10px 10px dimgray;
+}
+
+.cal-equal {
+    width: 155px;
+    border: none;
+    border-radius: 50px;
+    background-color: green;
+}
+    
+#del{
+    background-color: red;
+}
